@@ -1,0 +1,45 @@
+@charset "BIG5";
+
+.Date{
+	
+	color: green;
+    font-size: 25px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    text-decoration:underline;
+	
+}
+
+
+form{
+	
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height:200px;
+	
+}
+p {
+	
+	/*background-color: rgb(126, 225, 250);*/
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height:200px;
+}
+
+.datetime{
+	
+	color: red;
+	font-size:50px;
+	
+}
+
+a{
+	
+	display:flex;
+	justify-content: center;
+}
+
