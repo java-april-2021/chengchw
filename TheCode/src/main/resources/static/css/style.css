@@ -1,0 +1,33 @@
+@charset "BIG5";
+
+.warning{
+	
+	color: red;
+	font-size: 25px;
+}
+
+h1{
+	
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+form{
+	
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.listdiv{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+a{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
