@@ -9,10 +9,9 @@
 		<title>Insert title here</title>
 	</head>
 	<body>
-	
-	
-		<h1>New Book</h1>
-			<form:form action="/books/new" method="post" modelAttribute="book">
+		
+		<h1>Edit Book</h1>
+			<form:form action="/api/books/${index}" method="post" modelAttribute="book">
 			    <p>
 			        <form:label path="title">Title</form:label>
 			        <form:errors path="title"/>
@@ -34,9 +33,9 @@
 			        <form:input type="number" path="numberOfPage"/>
 			    </p>    
 			    <input type="submit" value="Submit"/>
-			</form:form>
-			
-			<a href="/books">Back to Home</a>   
+			</form:form>    
+	
+		
 	
 	</body>
 </html>

@@ -18,9 +18,9 @@ public interface BookRepository extends CrudRepository<Book, Long>{
 	
 	
 	
-	  Long countByTitleContaining(String search);
+	 Long countByTitleContaining(String search);
 	  
-	  Long deleteByTitleStartingWith(String search);
+	 Long deleteByTitleStartingWith(String search);
 	 
 	
 	
