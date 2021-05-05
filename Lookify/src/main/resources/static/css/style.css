@@ -1,0 +1,56 @@
+@charset "BIG5";
+
+.header{
+	
+	display:flex;
+	justify-content: space-between;
+}
+
+.topTenCountainer{
+	
+	border-style:solid;
+	width:500px;
+}
+
+.dashboarder{
+	
+	position: relative;
+  	top: 8px;
+  	right: 16px;
+}
+
+body{
+	
+	width:800px
+	
+}
+
+.dash{
+	
+	 position: absolute;
+	 top: 8px;
+	 left: 650px;
+	 font-size: 15px;
+}
+
+.songcontainer{
+	
+	margin-top:10px;
+	display:flex;
+	justify-content: space-around;
+}
+
+.formbody{
+	
+	width:600px;
+	margin-top:50px;
+}
+
+.inputform{
+	
+	width:150px;
+}
+
+.formdash{
+	margin-top:10px;
+}
