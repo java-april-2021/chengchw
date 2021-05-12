@@ -1,0 +1,22 @@
+@charset "BIG5";
+
+.category{
+	
+	width:200px;
+}
+.AddCategory{
+	
+	width:200px;
+}
+
+.cot{
+	
+	display:flex;
+	justify-content:start;
+	
+}
+
+h1{
+	
+	margin-top:10px;
+}
