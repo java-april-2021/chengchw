@@ -1,0 +1,23 @@
+@charset "BIG5";
+
+
+.content_custom{
+	
+	width:80%;
+	border-style: solid;
+	height:100px;
+	border-width: medium;
+}
+
+.header{
+
+	display: flex;
+    width:80%;
+    align-items: flex-end;
+}
+
+.bar{
+	
+	position: absolute;	
+	left: 55%;
+}
